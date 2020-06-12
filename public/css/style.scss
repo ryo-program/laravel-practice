@@ -1,0 +1,26 @@
+header {
+  background-color: rgb(121, 187, 241);
+  height: 60px;
+  padding: 8px;
+}
+.posts {
+  padding: 20px 0;
+}
+.post-item {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #333;
+  &__title {
+    padding: 10px;
+    background-color: rgb(148, 186, 236);
+  }
+  &__body {
+    padding: 10px;
+  }
+  &__footer {
+    padding: 10px;
+  background-color: rgb(167, 205, 236);
+
+  }
+
+}
