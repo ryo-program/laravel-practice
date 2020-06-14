@@ -1,3 +1,11 @@
+.title {
+  font-size: 22px;
+}
+
+.small {
+  font-size: 14px;
+}
+
 header {
   background-color: rgb(121, 187, 241);
   height: 60px;
@@ -5,22 +13,30 @@ header {
 }
 .posts {
   padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
-.post-item {
-  width: 80%;
-  margin: 20px auto;
-  border: 1px solid #333;
-  &__title {
-    padding: 10px;
-    background-color: rgb(148, 186, 236);
+  .post__item {
+    // position: relative;
+    width: 44%;
+    margin: 20px auto;
+    border: 1px solid #333;
+    &__title {
+      padding: 10px;
+      background-color: #ddd;
+    }
+    &__body {
+      padding: 10px;
+      .continue {
+        
+      }
+    }
+    &__footer {
+      padding: 10px;
+      background-color: #ddd;
+      // position: absolute;
+      // bottom: 0;
+  
+    }
+  
   }
-  &__body {
-    padding: 10px;
-  }
-  &__footer {
-    padding: 10px;
-  background-color: rgb(167, 205, 236);
-
-  }
-
-}

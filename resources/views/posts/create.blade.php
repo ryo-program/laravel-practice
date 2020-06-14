@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-  <div class="insert">
+  <div class="post__item">
     <div class="insert__container">
       <form action="{{ route('posts.store') }}" method="POST">
         @csrf

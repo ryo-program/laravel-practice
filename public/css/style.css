@@ -1,3 +1,11 @@
+.title {
+  font-size: 22px;
+}
+
+.small {
+  font-size: 14px;
+}
+
 header {
   background-color: #79bbf1;
   height: 60px;
@@ -6,25 +14,27 @@ header {
 
 .posts {
   padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.post-item {
-  width: 80%;
+.post__item {
+  width: 44%;
   margin: 20px auto;
   border: 1px solid #333;
 }
 
-.post-item__title {
+.post__item__title {
   padding: 10px;
-  background-color: #94baec;
+  background-color: #ddd;
 }
 
-.post-item__body {
+.post__item__body {
   padding: 10px;
 }
 
-.post-item__footer {
+.post__item__footer {
   padding: 10px;
-  background-color: #a7cdec;
+  background-color: #ddd;
 }
 /*# sourceMappingURL=style.css.map */
